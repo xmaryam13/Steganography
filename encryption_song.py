@@ -1,7 +1,7 @@
 
 import wave
 
-song = wave.open("C:/Users/MBajw/Downloads/Nursery_songs.mp3", mode='rb')
+song = wave.open("C:/Users/MBajw/Downloads/Nursery_songs.wav", mode='rb')
 frame_bytes = bytearray(list(song.readframes(song.getnframes())))
 string =input ("Enter your Message ")
 
