@@ -12,7 +12,7 @@ for i, bit in enumerate(bits):
 frame_modified = bytes(frame_bytes)
 
 
-with wave.open('C:/Users/MBajw/Downloads/Nursery_songs.mp3', 'wb') as fd:
+with wave.open('C:/Users/MBajw/Downloads/Nursery_songs.wav', 'wb') as fd:
     fd.setparams(song.getparams())
     fd.writeframes(frame_modified)
 song.close()
